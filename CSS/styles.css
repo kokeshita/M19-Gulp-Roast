@@ -86,7 +86,6 @@ nav img {
 }
 
 nav .logo a {
-    background-color: transparent;
     margin: 0;
 }
 
@@ -125,7 +124,6 @@ footer {
 
 footer p {
     color: #ffffff;
-    text-align: center;
     margin: 0;
     font-weight: 300;
     padding: 8px;
@@ -152,7 +150,8 @@ footer span {
 }
 
 /*Img*/
-.container img, .main-img {
+.container img,
+.main-img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -160,8 +159,6 @@ footer span {
     margin-bottom: 32px;
     width: 327px;
 }
-
-
 
 /* specific styling for products page */
 .prodcontainer {
@@ -216,7 +213,7 @@ footer span {
         text-align: center;
     }
 
-    .main-img-bike{
+    .main-img-bike {
         max-width: none !important;
         height: 200px;
 
@@ -238,19 +235,11 @@ change prodcontainer for 2 columns*/
         grid-template-columns: 2fr 1fr;
     }
 
-    .container img{
+    .container img {
         max-width: none !important;
         width: 269px;
         height: 436px;
         margin-top: 10rem;
-    }
-
-   /*rework*/
-    .main-img-bike{
-        max-width: none !important;
-        width: 360px;
-        height: 321px;
-
     }
 
     .prodcontainer {
@@ -258,15 +247,31 @@ change prodcontainer for 2 columns*/
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .prodcontainer img{
+    .prodcontainer img {
         width: 303px;
     }
-  
-    .prodcontainer h2{
+
+    .prodcontainer h2 {
         margin: 0;
     }
 
+    /* Image for contact page rework*/
+    .main-img-bike {
+        max-width: none !important;
+        width: 360px;
+        height: 321px;
+
+    }
+
+    /* Image for home page rework --> rename image!
+    main-img-home{
+    max-width: none !important;
+    width: 360px;
+    height: 321px;
+    }*/
+
 }
+
 
 /*900px change nav bar to horizontal, responsive img to horizontal big in css grid & backgd image.
 change prodcontainer for 3 columns*/
@@ -290,7 +295,7 @@ change prodcontainer for 3 columns*/
         margin-right: auto;
     }
 
-    .container img{
+    .container img {
         max-width: none !important;
         width: 500px;
         height: 358px;
@@ -300,20 +305,18 @@ change prodcontainer for 3 columns*/
     .prodcontainer {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 10px; /* Adjust the gap value as needed */
+        gap: 10px;
+        /* Adjust the gap value as needed */
     }
 
-    .prodcontainer img{
+    .prodcontainer img {
         width: 384px;
     }
 
-    .blend{
+    .blend {
         font-size: 17.6px;
         text-align: left;
         padding: 0 8px;
     }
-
-   
-    
 
 }
