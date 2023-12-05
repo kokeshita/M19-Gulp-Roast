@@ -81,10 +81,6 @@ nav a {
     font-weight: 300;
 }
 
-nav a:hover {
-    color: #d98555;
-}
-
 nav img {
     max-width: 200px;
 }
@@ -185,14 +181,13 @@ footer span {
 
 /* layout - mobile first! */
 .container,
-.home,
 .products {
     max-width: 1200px;
     margin: 0 auto;
     padding: 1rem 1rem;
 }
 
-/*550px Change nav to horizontal under logo with flexbox & backgd image to 100vw*/
+/*550px Change nav to horizontal under logo with flexbox & backgd image*/
 @media (min-width: 550px) {
     .background {
         background: url("../media/gulp-bottom-beans.jpg");
@@ -228,7 +223,7 @@ footer span {
     }
 }
 
-/*750px change responsive img to vertical in css grid & backgd image
+/*750px change responsive img to vertical in css grid & backgd image,
 change prodcontainer for 2 columns*/
 
 @media (min-width: 750px) {
@@ -261,13 +256,6 @@ change prodcontainer for 2 columns*/
     .prodcontainer {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 2rem;
-    }
-
-    .prodcontainer {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 10px; /* Adjust the gap value as needed */
     }
 
     .prodcontainer img{
@@ -281,7 +269,7 @@ change prodcontainer for 2 columns*/
 }
 
 /*900px change nav bar to horizontal, responsive img to horizontal big in css grid & backgd image.
-change prodcontainer for 3 columns, 2 rows*/
+change prodcontainer for 3 columns*/
 @media (min-width: 900px) {
     .background {
         background: url("../media/gulp-bottom-beans.jpg");
@@ -314,15 +302,18 @@ change prodcontainer for 3 columns, 2 rows*/
         grid-template-columns: repeat(3, 1fr);
         gap: 10px; /* Adjust the gap value as needed */
     }
+
+    .prodcontainer img{
+        width: 384px;
+    }
+
     .blend{
         font-size: 17.6px;
         text-align: left;
         padding: 0 8px;
     }
 
-    .prodcontainer img{
-        width: 384px;;
-    }
+   
     
 
 }
