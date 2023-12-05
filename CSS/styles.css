@@ -264,7 +264,19 @@ change prodcontainer for 2 columns*/
         gap: 2rem;
     }
 
+    .prodcontainer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px; /* Adjust the gap value as needed */
+    }
 
+    .prodcontainer img{
+        width: 303px;
+    }
+  
+    .prodcontainer h2{
+        margin: 0;
+    }
 
 }
 
@@ -299,10 +311,18 @@ change prodcontainer for 3 columns, 2 rows*/
 
     .prodcontainer {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 2rem;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px; /* Adjust the gap value as needed */
+    }
+    .blend{
+        font-size: 17.6px;
+        text-align: left;
+        padding: 0 8px;
     }
 
+    .prodcontainer img{
+        width: 384px;;
+    }
     
 
 }
