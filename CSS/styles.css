@@ -31,6 +31,7 @@ h2 {
 
 h1 {
     font-size: 40px;
+    margin-top: 0;
 }
 
 h2 {
@@ -148,7 +149,7 @@ footer span {
 .products {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 1rem 1rem;
+    padding: 2rem 2rem;
 }
 
 /*background img*/
@@ -234,7 +235,7 @@ footer span {
     .container {
         display: grid;
         grid-template-columns: 2fr 1fr;
-        margin: 0 2rem;
+        margin: 0 auto;
     }
 
     article {
@@ -246,6 +247,8 @@ footer span {
     .prodcontainer {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+        margin: 0;
     }
 
     .prodcontainer img {
@@ -261,7 +264,7 @@ footer span {
         max-width: none !important;
         width: 269px;
         height: 436px;
-        margin-top: 10rem;
+        margin-top:9rem;
     }
 
     .main-img-bike {
@@ -310,7 +313,7 @@ change prodcontainer for 3 columns*/
         max-width: none !important;
         width: 500px;
         height: 358px;
-        margin-top: 10rem;
+        margin-top: 9rem;
     }
 
     /* Products page */
