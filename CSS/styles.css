@@ -219,7 +219,6 @@ footer span {
 
     .main-img-bike {
         max-width: none !important;
-
     }
 }
 
@@ -258,7 +257,6 @@ footer span {
     }
 
     /* Imgs*/
-
     .main-img {
         max-width: none !important;
         width: 269px;
@@ -323,7 +321,6 @@ change prodcontainer for 3 columns*/
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 16px;
-
     }
 
     .prodcontainer img {
