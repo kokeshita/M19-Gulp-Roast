@@ -159,7 +159,9 @@ footer span {
 }
 
 /*img in About, Contact, Home*/
-.main-img, .main-img-bike, .main-img-home{
+.main-img,
+.main-img-bike,
+.main-img-home {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -241,7 +243,7 @@ footer span {
         margin-right: 1rem;
     }
 
-    
+    /* Products page */
     .prodcontainer {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -255,7 +257,7 @@ footer span {
         margin: 0;
     }
 
-    /* Img*/
+    /* Imgs*/
 
     .main-img {
         max-width: none !important;
@@ -267,6 +269,7 @@ footer span {
     .main-img-bike {
         width: auto;
         height: 321px;
+        margin-top: 9rem;
     }
 
     .main-img-home {
@@ -301,7 +304,7 @@ change prodcontainer for 3 columns*/
         margin-right: auto;
     }
 
-    article{
+    article {
         margin-right: 1rem;
     }
 
@@ -312,11 +315,15 @@ change prodcontainer for 3 columns*/
         margin-top: 10rem;
     }
 
+    /* Products page */
     .prodcontainer {
+        max-width: none !important;
+        padding: 0;
+        margin: 0;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 1rem;
-        /* Adjust the gap value as needed */
+        gap: 16px;
+
     }
 
     .prodcontainer img {
@@ -326,7 +333,11 @@ change prodcontainer for 3 columns*/
     .blend {
         font-size: 17.6px;
         text-align: left;
-        padding: 0 8px;
+        padding: 0;
+    }
+
+    h2 {
+        font-size: 26.4px;
     }
 
 }
