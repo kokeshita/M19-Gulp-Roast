@@ -190,7 +190,7 @@ footer span {
 
 
 /*550px background / nav to horizontal under logo with flexbox */
-@media (min-width: 550px) {
+@media (min-width: 576px) {
     .background {
         background: url("../media/gulp-bottom-beans.jpg");
         width: 100vw;
@@ -225,7 +225,7 @@ footer span {
 
 /*750px background /  vertical About img in css grid / prodcontainer for 2 columns */
 
-@media (min-width: 750px) {
+@media (min-width: 768px) {
     .background {
         background: url("../media/gulp-bottom-beans.jpg");
         width: 100vw;
@@ -285,7 +285,7 @@ footer span {
 
 /*900px change nav bar to horizontal, responsive img to horizontal big in css grid & backgd image.
 change prodcontainer for 3 columns*/
-@media (min-width: 900px) {
+@media (min-width: 992px) {
     .background {
         background: url("../media/gulp-bottom-beans.jpg");
         width: 100vw;
@@ -313,7 +313,7 @@ change prodcontainer for 3 columns*/
         max-width: none !important;
         width: 500px;
         height: 358px;
-        margin-top: 9rem;
+        margin-top: 8rem;
     }
 
     /* Products page */
