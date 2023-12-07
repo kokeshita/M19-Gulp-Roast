@@ -11,8 +11,8 @@ html {
 /* global styling */
 
 body {
-    font-family: "Lato", "Poppins", "Arial";
-    font-size: 19.2px;
+    font-family: "Lato", "Poppins", "Sans-serif";
+    font-size: 1.2rem;
     background-color: #ffffff;
     line-height: 2;
     margin: 0;
@@ -30,12 +30,12 @@ h2 {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 2.5rem;
     margin-top: 0;
 }
 
 h2 {
-    font-size: 19.2px;
+    font-size: 1.2rem;
 }
 
 a {
@@ -48,7 +48,7 @@ a:hover {
 }
 
 article {
-    padding: 16px;
+    padding: 1rem;
 }
 
 /*header*/
@@ -78,7 +78,7 @@ nav a {
     color: #ffffff;
     margin: 0 0 2rem 0;
     text-align: center;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 300;
 }
 
@@ -108,7 +108,7 @@ button {
     border-radius: 7px;
     font-family: "Lato";
     font-weight: 300;
-    font-size: 19.2px;
+    font-size: 1.2rem;
 }
 
 button a {
@@ -121,26 +121,26 @@ footer {
     background-color: #082b59;
     text-align: center;
     margin: 0;
-    padding-bottom: 48px;
+    padding-bottom: 3rem;
 }
 
 footer p {
     color: #ffffff;
     margin: 0;
     font-weight: 300;
-    padding: 8px;
+    padding: 0.5rem;
 }
 
 .disclaimer {
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 2.5;
 }
 
 
 footer span {
     color: #ffffff;
-    padding: 16px;
-    font-size: 32px;
+    padding: 1rem;
+    font-size: 2rem;
 }
 
 
@@ -166,15 +166,15 @@ footer span {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 32px;
-    margin-bottom: 32px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     width: 327px;
 }
 
 /* specific styling for products page */
 .prodcontainer {
     max-width: 1200px;
-    margin: 0 16px;
+    margin: 0 1rem;
     padding: 1rem 1rem;
 }
 
@@ -182,7 +182,7 @@ footer span {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
     width: 279px;
 }
 
@@ -199,7 +199,7 @@ footer span {
 
     nav {
         margin-left: 0;
-        padding-top: 16px;
+        padding-top: 1rem;
     }
 
     nav ul {
@@ -247,7 +247,7 @@ footer span {
     .prodcontainer {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 16px;
+        gap: 1rem;
         margin: 0;
     }
 
@@ -264,7 +264,7 @@ footer span {
         max-width: none !important;
         width: 269px;
         height: 436px;
-        margin-top:9rem;
+        margin-top: 9rem;
     }
 
     .main-img-bike {
@@ -323,7 +323,7 @@ change prodcontainer for 3 columns*/
         margin: 0;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 16px;
+        gap: 1rem;
     }
 
     .prodcontainer img {
@@ -337,7 +337,7 @@ change prodcontainer for 3 columns*/
     }
 
     h2 {
-        font-size: 26.4px;
+        font-size: 1.65rem;
     }
 
 }
