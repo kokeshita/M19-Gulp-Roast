@@ -39,7 +39,7 @@ h2 {
 }
 
 a {
-    color: #ffffff;
+    color: #f2f2f2;
     text-decoration: none;
 }
 
@@ -75,7 +75,7 @@ nav a {
     padding: 0.5rem 1rem;
     display: block;
     background-color: #082b59;
-    color: #ffffff;
+    color: #f2f2f2;
     margin: 0 0 2rem 0;
     text-align: center;
     font-size: 1.5rem;
@@ -102,7 +102,7 @@ nav .logo a {
 button {
     background-color: #59331d;
     border: none;
-    color: white;
+    color: f2f2f2;
     text-align: center;
     padding: 1rem;
     border-radius: 7px;
@@ -113,7 +113,7 @@ button {
 }
 
 button a:hover {
-    color: #ffffff;
+    color: #f2f2f2;
 }
 
 
@@ -127,7 +127,7 @@ footer {
 }
 
 footer p {
-    color: #ffffff;
+    color: #f2f2f2;
     margin: 0;
     font-weight: 300;
     padding: 0.5rem;
@@ -140,7 +140,7 @@ footer p {
 
 
 footer span {
-    color: #ffffff;
+    color: #f2f2f2;
     padding: 1rem;
     font-size: 2rem;
 }
