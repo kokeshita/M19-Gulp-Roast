@@ -170,16 +170,15 @@ footer span {
     width: 327px;
 }
 
-.main-img-bike-container{
-    width: 327;
-    height: 200px;
+.main-img-bike-container {
+    width: 100%;
     overflow: hidden;
     border-radius: 10px;
 }
 
-.main-img-bike{
-    margin-top: -39px;
-    margin-bottom: -39px;
+.main-img-bike {
+    margin-top: -50px;
+    margin-bottom: -50px;
 }
 
 
@@ -198,9 +197,7 @@ footer span {
 }
 
 
-
-
-/*550px background / nav to horizontal under logo with flexbox */
+/*576px background / nav to horizontal under logo with flexbox / Contact img */
 @media (min-width: 576px) {
     .background {
         background: url("../media/gulp-bottom-beans.jpg");
@@ -229,12 +226,19 @@ footer span {
         text-align: center;
     }
 
+    .main-img-bike-container {
+        width: 490px;
+        height: 440px;
+        border-radius: 10px;
+    }
+
     .main-img-bike {
-        max-width: none !important;
+        margin-top: -39px;
+        margin-bottom: -39px;
     }
 }
 
-/*750px background /  vertical About img in css grid / prodcontainer for 2 columns */
+/*768px background /  vertical About img in css grid / prodcontainer for 2 columns */
 
 @media (min-width: 768px) {
     .background {
@@ -278,14 +282,15 @@ footer span {
         margin-top: 8rem;
     }
 
-    .main-img-bike-container{
+    .main-img-bike-container {
         width: 360px;
         height: 321px;
         border-radius: 10px;
     }
+
     .main-img-bike {
         width: 360px;
-        height: 321px;   
+        height: 321px;
     }
 
     .main-img-home {
@@ -298,7 +303,7 @@ footer span {
 }
 
 
-/*900px change nav bar to horizontal, responsive img to horizontal big in css grid & backgd image.
+/*992px change nav bar to horizontal, responsive img to horizontal big in css grid & backgd image.
 change prodcontainer for 3 columns*/
 @media (min-width: 992px) {
     .background {
@@ -324,26 +329,27 @@ change prodcontainer for 3 columns*/
         margin-right: 1rem;
     }
 
-    .products{
+    .products {
         padding: 2rem 0;
     }
 
-    .main-img, .main-img-home {
+    .main-img,
+    .main-img-home {
         max-width: none !important;
         width: 500px;
         height: 358px;
         margin-top: 8rem;
     }
 
-    .main-img-bike-container{
+    .main-img-bike-container {
         width: 500px;
         height: 446px;
         border-radius: 10px;
     }
-    
+
     .main-img-bike {
         width: 500px;
-        height: 446px;   
+        height: 446px;
     }
 
     /* Products page */
@@ -371,5 +377,4 @@ change prodcontainer for 3 columns*/
         font-size: 1.65rem;
         line-height: 1.5;
     }
-
 }
