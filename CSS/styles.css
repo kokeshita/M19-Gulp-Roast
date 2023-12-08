@@ -109,11 +109,13 @@ button {
     font-family: "Lato";
     font-weight: 300;
     font-size: 1.2rem;
-}
-
-button a {
     text-decoration: none;
 }
+
+button a:hover {
+    color: #ffffff;
+}
+
 
 /*footer*/
 
@@ -312,6 +314,7 @@ change prodcontainer for 3 columns*/
         height: 240px;
     }
 
+    /* Nav*/
     nav ul {
         justify-content: flex-start;
     }
@@ -325,6 +328,8 @@ change prodcontainer for 3 columns*/
         margin-right: auto;
     }
 
+    /* layout*/
+
     article {
         margin-right: 1rem;
     }
@@ -333,6 +338,7 @@ change prodcontainer for 3 columns*/
         padding: 2rem 0;
     }
 
+    /* Imgs*/
     .main-img,
     .main-img-home {
         max-width: none !important;
